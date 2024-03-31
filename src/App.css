@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(3,102,231);
+  background: linear-gradient(90deg, rgba(3,102,231,1) 0%, rgba(49,171,254,1) 100%);
+}
+p, h1{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.card{
+  width: 450px;
+  height: 670px;
+  border-radius: 20px;
+  align-items: center;
+  border: none;
+}
+.display-type{
+  margin-top: 25px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: 0.15em;
+  font-size: 17px;
+  opacity: 70%;
+}
+.display-price{
+  margin-top: 15px;
+  font-size: 50px;
+}
+.display-month{
+  font-size: 45px;
+}
+hr{
+width: 90%;
+margin-top: 15px;
+}
+.card-body{
+  width: 90%;
+  padding: 0;
+}
+.display-features-right, .display-features-wrong{
+  margin: 0;
+  display: flex;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.display-contents{
+  margin-left: 15px;
+  font-family: 'Roboto' sans-serif;
+}
+.display-icons-right, .display-contents-right{
+  font-weight: 475;
+}
+.display-icons-wrong, .display-contents-wrong{
+  opacity: 50%;
+}
+.btn{
+  width: 90%;
+  height: 65px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+  opacity: 80%;
+  letter-spacing: 0.13em;
+}
